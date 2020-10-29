@@ -78,7 +78,7 @@
                     })
                     .catch((err) => {
                         alert("AUTHENICATION ERROR");
-                        alert("ERROR", err);
+                        alert(stringify(err));
                     });
             }
             catch (error) {
